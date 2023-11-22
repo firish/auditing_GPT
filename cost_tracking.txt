@@ -1,0 +1,11 @@
+# This file gives a rough idea to track the cost
+
+# For RQ1, RQ2, RQ3,
+# we use GPT-3.5-Turbo
+# gpt-3.5-turbo is the flagship model of this family, 
+# supports a 16K context window and is optimized for dialog.
+# $0.0010 / 1K tokens (INP)	
+# $0.0020 / 1K tokens (OUT)
+# 90,000 TPM
+# 3,500 RPM
+

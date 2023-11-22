@@ -1,0 +1,9 @@
+# create an OpenAi API key
+# set the key in bash/zshrc for mac
+# set the key as env variable and create an .env file for windows
+# activate the env, 
+# source ~/.bash_profile
+# (test) echo $OPENAI_API_KEY
+# Set up a billing method
+# Add credit to your account
+# Set up auto-credit renewal to ensure script isn't halted midway.

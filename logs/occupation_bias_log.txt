@@ -1,0 +1,14 @@
+##############################
+Execution Details:
+No of calls made: 37
+Total time taken: 176.96049118041992 seconds
+Estimated cost for this call: $0.0213
+##############################
+
+##############################
+Execution Details:
+No of calls made: 385
+Total time taken: 1866.8354432582855 seconds
+Estimated cost for this call: $0.2227
+##############################
+
