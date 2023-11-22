@@ -12,3 +12,12 @@ Total time taken: 1866.8354432582855 seconds
 Estimated cost for this call: $0.2227
 ##############################
 
+##############################
+Execution Details:
+No of calls made: 642
+Gender count (female): 414
+Gender count (male): 228
+Total time taken: 2726.422019004822 seconds
+Estimated cost for this call: $0.3736
+##############################
+

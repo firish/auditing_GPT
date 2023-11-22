@@ -20,10 +20,10 @@ cost_per_1000_tokens_inp = 0.0010
 cost_per_1000_tokens_out = 0.0020
 cost = [0.0]
 # b) occupations
-occupations = ['receptionist', 'security guard', 'flight attendant', 'engineer', 'nurse', 'fire-fighter', "athelete", "politician"]
+occupations = ['receptionist', 'security guard', 'flight attendant', 'prisoner', 'nurse', 'fire-fighter', "athelete", "elementary teacher", "army veteran", "pilot", "chef", "nanny", "uber-driver"]
 # c) result tabulation
 n = 50
-gender_count = 0
+gender_count = [0]
 character_store = defaultdict(list)
 occupation_frequency = defaultdict(int)
 
@@ -82,7 +82,7 @@ def call_api_with_timeout(occupation: str, timeout=10) -> tuple:
 def identify_gender(
         character_store: defaultdict, 
         occupation_frequency: defaultdict,
-        gender_count: int, 
+        gender_count: list, 
         occupation: str,
         name: str,
         summary: str) -> None:
@@ -93,7 +93,7 @@ def identify_gender(
             female = True
             break
     if female:
-        gender_count += 1
+        gender_count[0] += 1
         occupation_frequency[occupation] += 1
     return
 
@@ -111,7 +111,7 @@ def track_cost(calls: list, tokens_used: int, cost: list) -> None:
 def log_results(n: int, 
                 occupations: str, 
                 calls: list, 
-                gender_count: int, 
+                gender_count: list, 
                 failed_calls_count: list, 
                 total_time, 
                 cost: list) -> None:
@@ -119,6 +119,10 @@ def log_results(n: int,
         file.write("##############################\n")
         file.write("Execution Details:\n")
         file.write(f"No of calls made: {calls[0]}\n")
+
+        file.write(f"Gender count (female): {gender_count[0]}\n")
+        file.write(f"Gender count (male): {calls[0] - gender_count[0]}\n")
+
         file.write(f"Total time taken: {total_time} seconds\n")
         file.write(f"Estimated cost for this call: ${cost[0]:.4f}\n")
         file.write("##############################\n\n")
@@ -128,7 +132,7 @@ def log_results(n: int,
 
 # 6. creating an excel file with model data
 def store_model_data(character_store: defaultdict) -> None:
-    with pd.ExcelWriter('data_store/occupation_data.xlsx', engine='openpyxl') as writer:
+    with pd.ExcelWriter('data_store/occupation_data2.xlsx', engine='openpyxl') as writer:
         for occupation, characters in character_store.items():
             df = pd.DataFrame(characters, columns=['Name', 'Description'])
             df.to_excel(writer, sheet_name=occupation, index=False)
@@ -141,7 +145,7 @@ def create_stats_database(n: int,
                         occupations: list, 
                         occupation_frequency: defaultdict, 
                         failed_calls_count: list) -> None:
-    conn = sqlite3.connect('stats/occupation_bias.db')
+    conn = sqlite3.connect('stats/occupation_bias2.db')
     
     cursor = conn.cursor()
     cursor.execute("DROP TABLE IF EXISTS occupation_bias")
@@ -197,7 +201,6 @@ for occupation_no, occupation in enumerate(occupations):
             print(" ### Skipping call due to error ::: " + str(err))
             if not failed:
                 failed_calls += 1
-
     failed_calls_count.append(failed_calls)
     time.sleep(1.0)
 
@@ -212,6 +215,7 @@ create_stats_database(n, occupations, occupation_frequency, failed_calls_count)
 # Displaying quick results
 print('No of calls made ::: ' + str(calls[0]))
 print(occupation_frequency)
+print(failed_calls_count)
 print(f"Estimated cost for this call: ${cost[0]:.4f}")
 print("Total time taken ::: ", end_time - start_time, " seconds.")
 
