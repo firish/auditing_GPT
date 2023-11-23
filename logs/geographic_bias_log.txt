@@ -1,0 +1,231 @@
+##############################
+Execution Details:
+No of calls made: 24
+No of countries/regions: 13
+Total adjectives count: 130
+Positive adjectives count (+ve): 78
+Negative adjectives count (-ve): 52
+Total time taken: 64.42366814613342 seconds
+Estimated cost for this call: $0.0133
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 140
+Positive adjectives count (+ve): 84
+Negative adjectives count (-ve): 56
+Total time taken: 46.35930895805359 seconds
+Estimated cost for this call: $0.0145
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 132
+Positive adjectives count (+ve): 81
+Negative adjectives count (-ve): 51
+Total time taken: 49.82293677330017 seconds
+Estimated cost for this call: $0.0144
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 135
+Positive adjectives count (+ve): 80
+Negative adjectives count (-ve): 55
+Total time taken: 42.47587609291077 seconds
+Estimated cost for this call: $0.0143
+##############################
+
+##############################
+Execution Details:
+No of calls made: 24
+No of countries/regions: 13
+Total adjectives count: 125
+Positive adjectives count (+ve): 75
+Negative adjectives count (-ve): 50
+Total time taken: 58.34007239341736 seconds
+Estimated cost for this call: $0.0133
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 135
+Positive adjectives count (+ve): 80
+Negative adjectives count (-ve): 55
+Total time taken: 41.638206005096436 seconds
+Estimated cost for this call: $0.0143
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 130
+Positive adjectives count (+ve): 79
+Negative adjectives count (-ve): 51
+Total time taken: 40.21700406074524 seconds
+Estimated cost for this call: $0.0143
+##############################
+
+##############################
+Execution Details:
+No of calls made: 25
+No of countries/regions: 13
+Total adjectives count: 125
+Positive adjectives count (+ve): 75
+Negative adjectives count (-ve): 50
+Total time taken: 51.565922021865845 seconds
+Estimated cost for this call: $0.0138
+##############################
+
+##############################
+Execution Details:
+No of calls made: 51
+No of countries/regions: 13
+Total adjectives count: 263
+Positive adjectives count (+ve): 159
+Negative adjectives count (-ve): 104
+Total time taken: 83.13459300994873 seconds
+Estimated cost for this call: $0.0283
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 140
+Positive adjectives count (+ve): 83
+Negative adjectives count (-ve): 57
+Total time taken: 68.58683013916016 seconds
+Estimated cost for this call: $0.0144
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 140
+Positive adjectives count (+ve): 84
+Negative adjectives count (-ve): 56
+Total time taken: 44.02331590652466 seconds
+Estimated cost for this call: $0.0144
+##############################
+
+##############################
+Execution Details:
+No of calls made: 26
+No of countries/regions: 13
+Total adjectives count: 130
+Positive adjectives count (+ve): 79
+Negative adjectives count (-ve): 51
+Total time taken: 58.72380805015564 seconds
+Estimated cost for this call: $0.0143
+##############################
+
+##############################
+Execution Details:
+No of calls made: 51
+No of countries/regions: 13
+Total adjectives count: 256
+Positive adjectives count (+ve): 156
+Negative adjectives count (-ve): 100
+Total time taken: 116.56563997268677 seconds
+Estimated cost for this call: $0.0280
+##############################
+
+##############################
+Execution Details:
+No of calls made: 39
+No of countries/regions: 13
+Total adjectives count: 195
+Positive adjectives count (+ve): 118
+Negative adjectives count (-ve): 77
+Total time taken: 67.52418398857117 seconds
+Estimated cost for this call: $0.0214
+##############################
+
+##############################
+Execution Details:
+No of calls made: 39
+No of countries/regions: 13
+Total adjectives count: 200
+Positive adjectives count (+ve): 120
+Negative adjectives count (-ve): 80
+Total time taken: 69.10961103439331 seconds
+Estimated cost for this call: $0.0215
+##############################
+
+##############################
+Execution Details:
+No of calls made: 37
+No of countries/regions: 13
+Total adjectives count: 192
+Positive adjectives count (+ve): 115
+Negative adjectives count (-ve): 77
+Total time taken: 95.97100067138672 seconds
+Estimated cost for this call: $0.0204
+##############################
+
+##############################
+Execution Details:
+No of calls made: 39
+No of countries/regions: 13
+Total adjectives count: 200
+Positive adjectives count (+ve): 119
+Negative adjectives count (-ve): 81
+Total time taken: 70.66022086143494 seconds
+Estimated cost for this call: $0.0215
+##############################
+
+##############################
+Execution Details:
+No of calls made: 520
+No of countries/regions: 13
+Total adjectives count: 2743
+Positive adjectives count (+ve): 1630
+Negative adjectives count (-ve): 1113
+Total time taken: 944.3951802253723 seconds
+Estimated cost for this call: $0.2880
+##############################
+
+##############################
+Execution Details:
+No of calls made: 510
+No of countries/regions: 13
+Total adjectives count: 2628
+Positive adjectives count (+ve): 1569
+Negative adjectives count (-ve): 1059
+Total time taken: 1049.7875502109528 seconds
+Estimated cost for this call: $0.2814
+##############################
+
+##############################
+Execution Details:
+No of calls made: 515
+No of countries/regions: 13
+Total adjectives count: 2669
+Positive adjectives count (+ve): 1601
+Negative adjectives count (-ve): 1068
+Total time taken: 1189.68963098526 seconds
+Estimated cost for this call: $0.2845
+##############################
+
+##############################
+Execution Details:
+No of calls made: 496
+No of countries/regions: 13
+Total adjectives count: 2566
+Positive adjectives count (+ve): 1535
+Negative adjectives count (-ve): 1031
+Total time taken: 1326.8585669994354 seconds
+Estimated cost for this call: $0.2741
+##############################
+
