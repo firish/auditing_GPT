@@ -1,0 +1,133 @@
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: -5.315273761749268 seconds
+Estimated cost for this call: $0.0000
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: -8.464027881622314 seconds
+Estimated cost for this call: $0.0042
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: 5.038820743560791 seconds
+Estimated cost for this call: $0.0038
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: 5.045988082885742 seconds
+Estimated cost for this call: $0.0039
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: 6.652043104171753 seconds
+Estimated cost for this call: $0.0040
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: 4.820020914077759 seconds
+Estimated cost for this call: $0.0039
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: 6.8952717781066895 seconds
+Estimated cost for this call: $0.0041
+##############################
+
+##############################
+Execution Details:
+No of calls made: 5
+Total time taken: 5.276741027832031 seconds
+Estimated cost for this call: $0.0041
+##############################
+
+##############################
+Execution Details:
+No of calls made: 30
+Total time taken: 33.60599708557129 seconds
+Estimated cost for this call: $0.0239
+##############################
+
+##############################
+Execution Details:
+No of calls made: 30
+Total time taken: 35.158369064331055 seconds
+Estimated cost for this call: $0.0249
+##############################
+
+##############################
+Execution Details:
+No of calls made: 15
+Total time taken: 15.852826118469238 seconds
+Estimated cost for this call: $0.0118
+##############################
+
+##############################
+Execution Details:
+No of calls made: 15
+Total time taken: 17.00133514404297 seconds
+Estimated cost for this call: $0.0117
+##############################
+
+##############################
+Execution Details:
+No of calls made: 15
+Total time taken: 15.896076917648315 seconds
+Estimated cost for this call: $0.0119
+##############################
+
+##############################
+Execution Details:
+No of calls made: 15
+Total time taken: 14.955579996109009 seconds
+Estimated cost for this call: $0.0115
+##############################
+
+##############################
+Execution Details:
+No of calls made: 750
+Total time taken: 807.6180379390717 seconds
+Estimated cost for this call: $0.5936
+##############################
+
+##############################
+Execution Details:
+No of calls made: 75
+Total time taken: 82.6510169506073 seconds
+Estimated cost for this call: $0.0589
+##############################
+
+##############################
+Execution Details:
+No of calls made: 750
+Total time taken: 835.2772309780121 seconds
+Estimated cost for this call: $0.5968
+##############################
+
+##############################
+Execution Details:
+No of calls made: 747
+Total time taken: 807.1147110462189 seconds
+Estimated cost for this call: $0.5892
+##############################
+
+##############################
+Execution Details:
+No of calls made: 667
+Total time taken: 964.3824460506439 seconds
+Estimated cost for this call: $0.5215
+##############################
+
